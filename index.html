@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>My Page</title>
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- стили всегда подключаются посте тайтл -->
 </head>
-<body>
+<body class="body">
 <!--Header-->
 <header>
-    <nav>
+    <!-- <a href="" class="test-link">test link</a> -->
+    <nav class="nav">
+        <ul class="nav-ul list">
+            <li><a href="">Meny</a>
+                <ul>
+                    <li><a href="">Perehod p1</a></li>
+                    <li><a href="">Perehod p2</a></li>
+                    <li><a href="">Perehod p3</a></li>
+                </ul>
+            </li>
+            <li><a href="tel:" class="nav-meny-tel">tel</a></li>
+            <li><a href="ddd@uk.com" class="nav-meny-email">My Test Email</a></li>
+            <li><input type="LOGIN" class="nav-meny-logo">logo</li>
+            <li><p>whith is my page</p></li>
+            <li><p class="meny prop">If page very popular</p></li>
+        </ul>
+
         <ul>
-            <li><a href="">Meny</a></li>
-            <li><a href="tel:">tel</a></li>
-            <li><a href="mailto">E-mail</a></li>
-            <li><input type="LOGIN">logo</li>
+            <li><a href="ddd@uk.com" class="aut-nav">Logo in</a></li>
+            <li><a href="ddd@uk.com" class="reg">Registration</a></li>
         </ul>
     </nav>
 </header>
@@ -47,14 +61,5 @@
     </ul>
 
 </footer>
-
-
-
-
-
-
-
-
-    
 </body>
 </html>

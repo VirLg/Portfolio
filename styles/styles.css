@@ -1,0 +1,29 @@
+:root{
+    --primary-text-color: #212121;
+    --title-color: #000000;
+    --accent-color: #2196F3;
+}
+.body{
+    background-color: #ffffff;
+}
+.list{
+    list-style: none;
+}
+
+/* Meny+nav */
+.nav-ul a {
+color: var(--title-color);
+}
+
+.nav-ul a:focus,
+.nav a:hover{
+color: var(--accent-color);
+
+}
+
+
+
+/* main color #212121 */
+/* secondary color #000000 */
+/* accent color  #2196F3 */
+/* bakcground color #F5F4FA */
