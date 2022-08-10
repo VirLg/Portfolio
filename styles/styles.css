@@ -22,6 +22,15 @@ border: 1px solid tomato;
 color: tomato;
 }
 
+/* main color #212121 */
+/* secondary color #000000 */
+/* accent color  #2196F3 */
+/* bakcground color #F5F4FA */
+/* Heroy */
+
+
+
+
 /* Button */
 
 .button {
@@ -31,11 +40,24 @@ color: tomato;
 .button.primary {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
-}
     
+}
+/* Heroy */
 
 
-/* main color #212121 */
-/* secondary color #000000 */
-/* accent color  #2196F3 */
-/* bakcground color #F5F4FA */
+
+.heroy {
+    width: 30%;
+    
+    background-color: grey;
+    display:inline-block;
+    padding-bottom: 200px;
+
+
+}   
+
+.image{
+    width: 30%;
+     margin-top: 200px;
+    }
+
