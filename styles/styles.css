@@ -1,21 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing:border-box;
+}
+
+
+
+
 :root{
     --primary-text-color: #212121;
     --title-color: #000000;
     --accent-color: #2196F3;
     --primary-bg-color: #ffffff;
+    --primary-footer-color: grey;
 }
 .body{
     background-color: #ffffff;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+
 }
 .list{
     list-style: none;
+    margin: 0;
+}
+.link {
+    text-decoration: none;
 }
 
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: inline-block;
+    min-width: 170px;
+    padding: 11px 33px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-align: center;
+    color: var(--accent-color);
+    border-color: var(--primary-bg-color);
+}
+.primary {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    border-bottom: var(--primary-bg-color);
+}
+
+.button:hover,
+.button:focus{
+    background-color: grey;
+    color: aquamarine;
+}
+
+/* ============Header=============== */
+
+.header {
+ background-color: grey;   
+}
+
+/* ============Navigation=========== */
 /* Meny+nav */
+.nav-ul{ 
+    margin: 0;
+}
 .nav-ul > li > a {
 color: var(--title-color);
-border: 1px solid tomato;
+
 }
+
+
+.nav-ul p {
+    margin: 0;
+}
+
 
 .nav-meny:focus,
 .nav-meny:hover{
@@ -31,33 +94,64 @@ color: tomato;
 
 
 
-/* Button */
 
-.button {
-    color: var(--accent-color);
-    border-color: var(--primary-bg-color);
-}
-.button.primary {
-    color: var(--primary-bg-color);
-    background-color: var(--accent-color);
-    
+
 }
 /* Heroy */
 
-
+.title {
+    display: inline;
+}
 
 .heroy {
     width: 30%;
     
     background-color: grey;
-    display:inline-block;
-    padding-bottom: 200px;
+    display:
+    padding-bottom:
 
 
 }   
 
 .image{
-    width: 30%;
-     margin-top: 200px;
+    
+   
     }
 
+.content {
+    
+}
+
+/* ==============Footer============ */
+.footer {
+    background-color: var(--primary-footer-color);
+}
+
+
+
+.box-1 {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #f44336;
+    border-left-width: 19px;
+    border-left-style: solid;
+    border-left-color: blue;
+
+    border-top-width: 19px;
+    border-top-style: solid;
+    border-top-color: blue;
+
+    border-right-width: 19px;
+    border-right-style: solid;
+    border-right-color: blue;
+
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 15px;
+  
+    /*  The value can be pixels  */
+    border-radius: 5
+    px;
+    /* outline:3px solid #212121; */
+  }
